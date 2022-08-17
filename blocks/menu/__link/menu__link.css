@@ -1,0 +1,14 @@
+.menu__link{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.menu__link:hover {
+  color: #ffcb78;
+}
+
+.menu__link:active {
+  color: #ffcb78;
+  opacity: 0.3;
+}

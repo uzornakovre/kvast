@@ -1,0 +1,9 @@
+.header {
+  min-height: 430px;
+  padding: 60px 0;
+  background-color: #000;
+  background-image: url('../../images/wheat_back.jpg');
+  background-position: bottom;
+  background-size: cover;
+  color: #fff;
+}

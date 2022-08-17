@@ -5,28 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Кваст</title>
     <link rel="icon" type="image/png" href="./images/logo.png">
-    <link rel="stylesheet" type="text/css" href="./style/reset.css">
+    <link rel="stylesheet" type="text/css" href="./pages/pages.css">
     <link rel="stylesheet" type="text/css" href="./style/style.css">
   </head>
-  <body>
+  <body class="page">
     <header class="header">
-      <div class="container-1">
-        <div class="header-top clearfix">
+      <div class="container container_small">
+        <div class="header__top clearfix">
           <div class="logo"></div>
-          <nav>
-            <ul class="main-nav clearfix">
-              <li><a href="#">История</a></li>
-              <li><a href="#">Производство</a></li>
-              <li><a href="#">Ассортимент</a></li>
-              <li><a href="#">Где купить</a></li>
+          <nav class="menu">
+            <ul class="menu__list clearfix">
+              <li class="menu__item"><a class="menu__link" href="#">История</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Производство</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Ассортимент</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Где купить</a></li>
             </ul>
           </nav>
         </div>
-        <h1 class="promo">Крафтовый&nbsp;квас всему&nbsp;голова!</h1>
+        <h1 class="header__title">Крафтовый&nbsp;квас всему&nbsp;голова!</h1>
       </div>
     </header>
-    <section class="new container-1 clearfix">
-      <div class="container-1">
+    <section class="new clearfix">
+      <div class="container container_small">
         <h2>Новинки</h2>
         <div class="new-list">
           <div class="new-item">
@@ -83,7 +83,7 @@
       </div>  
     </section>
     <section class="banner">
-      <div class="container-2">
+      <div class="container container_large">
         <ul class="clearfix">
           <li class="banner-item">
             <h2>Варим сами</h2>
@@ -101,7 +101,7 @@
       </div>
     </section>
     <section class="history">
-      <div class="container-1">
+      <div class="container container_small">
         <h2>Немного истории</h2>
         <dl>
           <dt>
@@ -126,7 +126,7 @@
       </div>
     </section>
     <section class="reviews">
-      <div class="container-1">
+      <div class="container container_small">
         <h2>Пресса о нас</h2>
         <blockquote class="review-item">
           <p>Сегодня мы провели дегустацию чего-то действительно новенького — крафтового кваса. Да, да, вы не ослышались! Спасибо Арсену и Руслану за то, что предоставили целую бочку своего напитка!
@@ -137,7 +137,7 @@
       </div> 
     </section>
     <section class="assortment">
-      <div class="container-1">
+      <div class="container container_small">
         <h2>Ассортимент</h2>
         <table>
           <tr class="tbl-header">
@@ -149,28 +149,28 @@
           </tr>
           <tr>
             <td class="price-name">Классика</td>
-            <td class="alc-vol">&lt 1,2%</td>
+            <td class="alc-vol">&lt; 1,2%</td>
             <td class="ccal">33</td>
             <td class="volume">330 мл</td>
             <td class="price-number"> 120 Р.</td>
           </tr>
           <tr>
             <td class="price-name">Шабаш</td>
-            <td class="alc-vol">&gt 1,2%</td>
+            <td class="alc-vol">&gt; 1,2%</td>
             <td class="ccal">45</td>
             <td class="volume">330 мл</td>
             <td class="price-number">250 Р.</td>
           </tr>
           <tr>
             <td class="price-name">Вахтёр <sup>Новинка</sup></td>
-            <td class="alc-vol">&lt 1%</td>
+            <td class="alc-vol">&lt; 1%</td>
             <td class="ccal">35</td>
             <td class="volume">0,5 л</td>
             <td class="price-number">150 Р.</td>
           </tr>
           <tr>
             <td class="price-name">Романтик <sup>Новинка</sup></td>
-            <td class="alc-vol">&lt 0,5%</td>
+            <td class="alc-vol">&lt; 0,5%</td>
             <td class="ccal">27</td>
             <td class="volume">0,5 л</td>
             <td class="price-number">90 Р.</td>
@@ -179,7 +179,7 @@
       </div>    
     </section>
     <section class="order">
-      <div class="container-1">
+      <div class="container container_small">
         <h2>Заказать</h2>
         <p class="order-tip">Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
         <form  class="order-form">
@@ -222,15 +222,17 @@
       </div>
     </section>
     <footer class="footer">
-      <div class="container-2">
+      <div class="container container_large">
         <div class="footer-top clearfix">
           <div class="logo"></div>
-          <ul class="main-nav">
-            <li><a href="#">История</a></li>
-            <li><a href="#">Производство</a></li>
-            <li><a href="#">Ассортимент</a></li>
-            <li><a href="#">Где купить</a></li>
-          </ul>
+          <nav class="menu">
+            <ul class="menu__list clearfix">
+              <li class="menu__item"><a class="menu__link" href="#">История</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Производство</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Ассортимент</a></li>
+              <li class="menu__item"><a class="menu__link" href="#">Где купить</a></li>
+            </ul>
+          </nav>
         </div>
         <div class="footer-bottom">
           <div class="social">
@@ -242,7 +244,7 @@
             <p>При перепечатке материалов ссылка на сайт обязательна!</p>
           </div>
           <div class="footer-copyright">
-            <a class="html-logo" href="#"><img src="images/htmlacademy.png"></a><b>Разработчик: </b><a href="#">HTML Academy</a>
+            <a class="html-logo" href="#"><img src="images/htmlacademy.png" alt="Логотип академии"></a><b>Разработчик: </b><a href="#">HTML Academy</a>
           </div>
         </div>
       </div>

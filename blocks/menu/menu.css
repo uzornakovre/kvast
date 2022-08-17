@@ -1,0 +1,7 @@
+.menu {
+  float: right;
+  min-width: 600px;
+  border-top: 1px solid rgba(255,255,255,.2);
+  border-bottom: 1px solid rgba(255,255,255,.2);
+  margin-top: 10px;
+}

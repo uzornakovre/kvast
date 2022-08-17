@@ -1,0 +1,9 @@
+.menu__item {
+  float: left;
+  padding: 15px 0 12px;
+  text-transform: uppercase;
+}
+
+.menu__item:not(:last-of-type) {
+  margin-right: 54px;
+}
