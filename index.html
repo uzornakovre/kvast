@@ -1,33 +1,35 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Кваст</title>
-    <link rel="stylesheet" type="text/css" href="./css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="icon" type="image/png" href="./images/logo.png">
+    <link rel="stylesheet" type="text/css" href="./style/reset.css">
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
   </head>
   <body>
     <header class="header">
       <div class="container-1">
         <div class="header-top clearfix">
-          <div class="header-logo">
-            <img src="img/logo.png" alt="logo" width="140px" height="76px">
-          </div>
-          <ul class="main-nav clearfix">
-            <li><a href="#">История</a></li>
-            <li><a href="#">Производство</a></li>
-            <li><a href="#">Ассортимент</a></li>
-            <li><a href="#">Где купить</a></li>
-          </ul>
+          <div class="logo"></div>
+          <nav>
+            <ul class="main-nav clearfix">
+              <li><a href="#">История</a></li>
+              <li><a href="#">Производство</a></li>
+              <li><a href="#">Ассортимент</a></li>
+              <li><a href="#">Где купить</a></li>
+            </ul>
+          </nav>
         </div>
-        <div class="promo">Крафтовый квас<br> всему голова!</div>
+        <h1 class="promo">Крафтовый&nbsp;квас всему&nbsp;голова!</h1>
       </div>
     </header>
     <section class="new container-1 clearfix">
       <div class="container-1">
         <h2>Новинки</h2>
-        <div class='new-list'>
-          <div class='new-item'>
+        <div class="new-list">
+          <div class="new-item">
             <h3>Вахтёр</h3> 
               <div class="composition">
                 <table>
@@ -42,9 +44,9 @@
                 </table>
                 <p>Ржаной хлеб, Вода, Солод, Соль</p>
               </div>
-            <img src="img/bottle-left.jpg">
+            <img src="images/bottle-left.jpg" alt="Квас Вахтёр">
               <div class="description-and-buy">
-                <p class='description'>
+                <p class="description">
                   Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!
                 </p>
                 <a class="btn btn-more" href="#">Подробнее</a>
@@ -52,7 +54,7 @@
                 <b>150 Р.</b>
               </div>
           </div>
-          <div class='new-item'>
+          <div class="new-item">
             <h3>Романтик</h3>
               <div class="composition">
                 <table>
@@ -67,9 +69,9 @@
                 </table>
                 <p>Ячменный хлеб, Вода, Солод, Апельсин</p>
               </div>
-            <img src="img/bottle-right.jpg">
+            <img src="images/bottle-right.jpg" alt="Квас Романтик">
               <div class="description-and-buy">
-                <p class='description'>
+                <p class="description">
                   Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня.
                 </p>
                 <a class="btn btn-more" href="#">Подробнее</a>
@@ -104,30 +106,28 @@
         <dl>
           <dt>
             Происхождение кваса
-            <i>Источник: <a target="_blank" href="#">ru.wikipedia.org</a></i>
+            <span class="italic">Источник: <a target="_blank" href="#">ru.wikipedia.org</a></span>
           </dt>
           <dd>
-            <img src="img/wiki-1.png" alt='Происхождение кваса'>
+            <img src="images/wiki-1.png" alt="Происхождение кваса">
             <p>Квас на Руси появился в X-XI веке. Само слово «квас» тоже имеет древнерусское происхождение. Помимо России квас готовят в Белоруссии, Сербии, Македонии, Словакии и многих других странах, но называется он везде одинаково — квас.</p>
           </dd>
         </dl>
         <dl>
           <dt>
             Классификация кваса
-            <i>Источник: <a target="_blank" href="#">ru.wikipedia.org</a></i>
+            <span class="italic">Источник: <a target="_blank" href="#">ru.wikipedia.org</a></span>
           </dt>
           <dd>
-            <img src="img/wiki-2.png" alt='Классификация кваса'>
+            <img src="images/wiki-2.png" alt='Классификация кваса'>
             <p>По российскому ГОСТу для промышленного изготовления — это напиток с объёмной долей этилового спирта не более 1,2%, изготовленный в результате незавершённого спиртового и молочнокислого брожения сусла.</p> 
           </dd>
         </dl>
       </div>
     </section>
-    <!-- 5. Reviews ----------->
-    <section class='reviews'>
+    <section class="reviews">
       <div class="container-1">
         <h2>Пресса о нас</h2>
-                    <!-- Возможно обернуть в див-->
         <blockquote class="review-item">
           <p>Сегодня мы провели дегустацию чего-то действительно новенького — крафтового кваса. Да, да, вы не ослышались! Спасибо Арсену и Руслану за то, что предоставили целую бочку своего напитка!
           </p>
@@ -136,8 +136,7 @@
         </blockquote>  
       </div> 
     </section>
-    <!-- 6. Assortment -------->
-    <section class='assortment'>
+    <section class="assortment">
       <div class="container-1">
         <h2>Ассортимент</h2>
         <table>
@@ -179,11 +178,10 @@
         </table>
       </div>    
     </section>
-    <!-- 7. Order ------------->
     <section class="order">
       <div class="container-1">
         <h2>Заказать</h2>
-        <p class='order-tip'>Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
+        <p class="order-tip">Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
         <form  class="order-form">
           <div class="order-form-group">
             <label for="name">Представьтесь:</label>
@@ -223,13 +221,10 @@
         </form>
       </div>
     </section>
-    <!-- 8. Footer ------------>
-    <footer class='footer'>
+    <footer class="footer">
       <div class="container-2">
         <div class="footer-top clearfix">
-          <div class='footer-logo'>
-            <img src="img/logo.png">
-          </div>
+          <div class="logo"></div>
           <ul class="main-nav">
             <li><a href="#">История</a></li>
             <li><a href="#">Производство</a></li>
@@ -247,7 +242,7 @@
             <p>При перепечатке материалов ссылка на сайт обязательна!</p>
           </div>
           <div class="footer-copyright">
-            <a class="html-logo" href="#"><img src="img/htmlacademy.png"></a><b>Разработчик: </b><a href="#">HTML Academy</a>
+            <a class="html-logo" href="#"><img src="images/htmlacademy.png"></a><b>Разработчик: </b><a href="#">HTML Academy</a>
           </div>
         </div>
       </div>
