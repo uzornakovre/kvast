@@ -28,3 +28,7 @@
 @import url('../blocks/fresh/__button/_more/fresh__button_more.css');
 @import url('../blocks/fresh/__button/_buy/fresh__button_buy.css');
 @import url('../blocks/fresh/__cost/fresh__cost.css');
+@import url('../blocks/features/features.css');
+@import url('../blocks/features/__list/features__list.css');
+@import url('../blocks/features/__list-item/features__list-item.css');
+@import url('../blocks/features/__title/features__title.css');

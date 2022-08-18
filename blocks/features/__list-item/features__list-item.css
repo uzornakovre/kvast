@@ -1,0 +1,38 @@
+.features__list-item {
+  position: relative;
+  margin-top: 80px;
+  width: 210px;
+  float: left;
+  padding-left: 95px;
+  padding-right: 95px;
+}
+
+.features__list-item:first-child {
+  padding-left: 0;
+}
+
+.features__list-item:last-child {
+  padding-right: 0;
+}
+
+.features__list-item::before {
+  content: "";
+  position: absolute;
+  background-image: url(../../../images/icon-brew.png);
+  background-repeat: no-repeat;
+  top: 0;
+  width: 70px;
+  height: 70px;
+}
+
+.features__list-item:nth-child(2)::before {
+  background-image: url(../../../images/icon-matreshka.png);
+}
+
+.features__list-item:nth-child(3)::before {
+  background-image: url(../../../images/icon-thumbsup.png);
+}
+
+.features__list-item:not(:first-child) {
+  border-left: 1px solid #e5b66c;
+}
