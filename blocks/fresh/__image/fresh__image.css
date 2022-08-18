@@ -1,0 +1,8 @@
+.fresh__image {
+  position: absolute;
+  z-index: -1;
+  width: 319px;
+  height: 459px;
+  padding-top: 3px;
+  padding-left: 44px;
+}

@@ -1,0 +1,13 @@
+.fresh__button_more {
+  color: #834700;
+  margin-right: 5px;
+}
+
+.fresh__button_more:hover {
+  color: #6a3900;
+}
+
+.fresh__button_more:active {
+  color: #6a3900;
+  opacity: 0.3;
+}

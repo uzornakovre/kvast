@@ -1,0 +1,12 @@
+.fresh__button {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  word-wrap: break-word;
+  padding: 13px 20px;
+  vertical-align: center;
+  border: 2px solid #834700;
+}

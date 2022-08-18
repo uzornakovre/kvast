@@ -1,0 +1,15 @@
+.fresh__button_buy {
+  color: #ffffff;
+  background-color: #834700;
+  margin-right: 15px;
+}
+
+.fresh__button_buy:hover {
+  color: #ffffff;
+  background-color: #6a3900;  
+}
+
+.fresh__button_buy:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #6a3900;  
+}

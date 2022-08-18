@@ -1,0 +1,15 @@
+.fresh__list-item {
+  width: 398px;
+  position: relative;
+}
+
+.fresh__list-item:first-child {
+  float: left;
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+
+.fresh__list-item:last-child {
+  float: right;
+  border-right: 1px solid #e5e5e5;
+}
