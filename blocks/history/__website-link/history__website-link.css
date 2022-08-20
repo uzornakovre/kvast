@@ -1,0 +1,14 @@
+.history__website-link {
+  text-decoration: underline;
+  color: #834700;
+}
+
+.history__website-link:hover {
+  text-decoration: underline;
+  color: #6a3900;
+}
+
+.history__website-link:active {
+  text-decoration: underline;
+  color: #cab7a2;
+}

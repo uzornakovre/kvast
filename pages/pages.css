@@ -32,3 +32,11 @@
 @import url('../blocks/features/__list/features__list.css');
 @import url('../blocks/features/__list-item/features__list-item.css');
 @import url('../blocks/features/__title/features__title.css');
+@import url('../blocks/history/history.css');
+@import url('../blocks/history/__title/history__title.css');
+@import url('../blocks/history/__list-item/history__list-item.css');
+@import url('../blocks/history/__website/history__website.css');
+@import url('../blocks/history/__website-link/history__website-link.css');
+@import url('../blocks/history/__list-item-definition/history__list-item-definition.css');
+@import url('../blocks/history/__list-item-image/history__list-item-image.css');
+

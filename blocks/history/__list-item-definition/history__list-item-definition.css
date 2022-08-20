@@ -1,0 +1,10 @@
+.history__list-item-definition {
+  position: relative;
+  padding-right: 325px;
+  margin-bottom: 60px;
+  min-height: 100px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #404040;
+}
