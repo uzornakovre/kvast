@@ -24,67 +24,19 @@ h2 {
 
 
 /*  HISTORY */
-.history {
-	padding-top: 80px;
-	padding-bottom: 20px;
-}
 
-.history h2 {
-	margin-bottom: 60px;
-}
 
-.history dt {
-	font-size: 20px;
-	line-height: 30px;
-	font-weight: 700;
-	text-transform: uppercase;
-	color: #000000;
-	margin-bottom: 18px;
-}
 
-.history .italic {
-	float: right;
-	font-size: 16px;
-	line-height: 30px;
-	font-weight: 400;
-	font-style: italic;
-	color: #444444;
-	text-transform: none;
-}
 
-.history a {
-	text-decoration: underline;
-	color: #834700;
-}
 
-.history a:hover {
-	text-decoration: underline;
-	color: #6a3900;
-}
 
-.history a:active {
-	text-decoration: underline;
-	color: #cab7a2;
-}
 
-.history dd {
-	position: relative;
-	padding-right: 325px;
-	margin-bottom: 60px;
-	min-height: 100px;
-	font-size: 16px;
-	line-height: 30px;
-	font-weight: 400;
-	color: #404040;
-}
 
-.history dd img {
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding-top: 10px;
-	border-radius: 5px;
-}
+
+
+
+
+
 
 /*  REvIEWS */
 .reviews {
