@@ -1,0 +1,15 @@
+.reviews__item {
+  margin-top: 74px;
+  position: relative;
+}
+
+.reviews__item::before {
+  content: "";
+  position: absolute;
+  background-image: url(../../../images/quotes.png);
+  background-repeat: no-repeat;
+  top: 7px;
+  left: -105px;
+  width: 45px;
+  height: 35px;
+}

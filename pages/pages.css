@@ -39,4 +39,10 @@
 @import url('../blocks/history/__website-link/history__website-link.css');
 @import url('../blocks/history/__list-item-definition/history__list-item-definition.css');
 @import url('../blocks/history/__list-item-image/history__list-item-image.css');
+@import url('../blocks/reviews/reviews.css');
+@import url('../blocks/reviews/__title/reviews__title.css');
+@import url('../blocks/reviews/__item/reviews__item.css');
+@import url('../blocks/reviews/__text/reviews__text.css');
+@import url('../blocks/reviews/__author/reviews__author.css');
+@import url('../blocks/reviews/__button/reviews__button.css');
 
