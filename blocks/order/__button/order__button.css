@@ -13,6 +13,8 @@
   color: #ffffff;
   background-color: #834700;
   border: none;
+  transition: color 0.2s linear,
+              background-color 0.2s linear;
 }
 
 .order__button:hover {
@@ -26,8 +28,5 @@
 }
 
 .order__button:focus {
-  color: #ffffff;
-  background-color: #6a3900;
-  border: none;
-  outline: none;
+  outline: 1px solid rgba(0, 0, 0, 0.5);;
 }

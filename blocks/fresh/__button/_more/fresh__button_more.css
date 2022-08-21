@@ -1,6 +1,7 @@
 .fresh__button_more {
   color: #834700;
   margin-right: 5px;
+  transition: color 0.2s linear;
 }
 
 .fresh__button_more:hover {

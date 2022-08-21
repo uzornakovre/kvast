@@ -9,6 +9,7 @@
   background-image: url('../../../images/htmlacademy.png');
   background-repeat: no-repeat;
   background-position: center;
+  transition: border-color 0.2s linear;
 }
 
 .footer__html-logo-link:hover {

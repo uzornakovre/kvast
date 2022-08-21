@@ -2,4 +2,14 @@
   vertical-align: middle;
   color: #989898;
   text-decoration: none;
+  transition: color 0.2s linear;
+}
+
+.footer__link:hover {
+  color: #ffcb78;
+}
+
+.footer__link:active {
+  color: #ffcb78;
+  opacity: .3;
 }

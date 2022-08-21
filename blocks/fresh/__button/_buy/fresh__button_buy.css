@@ -2,6 +2,8 @@
   color: #ffffff;
   background-color: #834700;
   margin-right: 15px;
+  transition: color 0.2s linear,
+              background-color 0.2s linear;
 }
 
 .fresh__button_buy:hover {
