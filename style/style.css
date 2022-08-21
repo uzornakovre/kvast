@@ -1,288 +1,29 @@
-ul {
-	list-style: none;
-}
 
-h2 {
-	font-size: 40px;
-	line-height: 61px;
-	font-weight: 700;
-	text-transform: uppercase;
-	color: #000000;
-}
-
-.btn {
-	display: inline-block;
-	font-size: 16px;
-	line-height: 20px;
-	font-weight: 700;
-	text-transform: uppercase;
-	text-decoration: none;
-	word-wrap: break-word;
-	padding: 13px 20px;
-	vertical-align: center;
-}
-
-
-/*  ASSORTMENT  */
-.assortment {
-	margin-top: 90px;
-	margin-bottom: 90px;
-}
-
-.assortment h2 {
-	margin-bottom: 45px;
-}
-
-.assortment table {
-	width: 100%;
-	border-collapse: collapse;
-}
-
-.assortment tr {
-	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.assortment .tbl-header {
-	font-size: 11px;
-	line-height: 30px;
-	font-weight: 400;
-	text-transform: uppercase;
-	color: #999999;
-}
-
-.assortment td{
-	padding: 17px 0;
-}
-
-.assortment th {
-	text-align: left;
-	padding: 30px 0 30px 0;
-}
-
-.assortment .price-name {
-	font-weight: 700;
-	text-transform: uppercase;
-	width: 400px;
-}
-
-.assortment .price-name:not(th) {
-	color: #000;
-}
-
-.assortment .price-name sup {
-	font-size: 8px;
-	line-height: 30px;
-	font-weight: 700;
-	text-transform: uppercase;
-	color: #ffffff;
-	background-color: #000;
-	border-radius: 2px;
-	padding: 2px;
-	margin-left: 25px;
-}
-
-.assortment .price-number {
-	text-align: right;
-}
-
-.assortment .volume {
-	text-transform: uppercase;
-}
-
-/*  ORDER  */
-.order {
-	background-color: #ffcb78;
-	padding-top: 80px;
-	padding-bottom: 110px;
-}
-
-.order .order-tip {
-	margin-top: 74px;
-	margin-bottom: 65px;
-	width: 635px;
-}
-
-.order .order-form {
-	width: 630px;
-}
-
-.order .order-form-group {
-	width: 630px;
-	margin-bottom: 20px;
-}
-
-.order .ofg-left,
-.order .ofg-right {
-	width: 290px;
-}
-
-.order .ofg-left {
-	float: left;
-}
-
-.order .ofg-right {
-	float: right;
-}
-
-.order .order-form label {
-	display: inline-block;
-	font-size: 16px;
-	line-height: 20px;
-	font-weight: 700;
-	text-transform: uppercase;
-	color: #000000;
-	margin-bottom: 10px;
-}
-
-.order input[type="text"],
-.order textarea {
-	box-sizing: border-box;
-	width: 100%;
-	height: 50px;
-	font: inherit;
-	color: inherit;
-	background-color: rgba(0, 0, 0, 0.1);
-	border: none;
-}
-
-.order textarea {
-	display: block;
-	min-height: 120px;
-	margin-bottom: 35px;
-	resize: none;
-}
-
-.order .checkbox-area input[type="checkbox"] {
-	margin-right: 18px;
-}
-
-.order .btn {
-	margin-top: 39px;
-	font-size: 16px;
-	line-height: 20px;
-	font-weight: 700;
-	text-transform: uppercase;
-	color: #ffffff;
-	background-color: #834700;
-	border: none;
-}
 
 /*  FOOTER  */
-.footer {
-	background-color: #000;
-	color: #989898;
-	padding-top: 60px;
-	padding-bottom: 70px;
-}
 
-.footer-top {
-	margin-bottom: 47px;
-}
 
-.footer-logo {
-	float: left;
-	width: 140px;
-	height: 76px;
-	padding-left: 38px;
-}
 
-.footer-logo img {
-	width: 140px;
-	height: 76px;
-}
 
-.footer-top .menu {
-	margin-right: 108px;
-	margin-top: 7px;
-}
 
-.footer-bottom {
-	display: flex;
-	flex-direction: row;
-	height: 68px;
-}
 
-.social {
-	font-size: 0;
-	background-color: rgba(27,27,27,.9);
-	height: 68px;
-}
 
-.soc-btn {
-	display: inline-block;
-	width: 71px;
-	height: 66px;
-	border: 1px solid rgba(255, 203, 120, .1);
-	opacity: 0.9;
-}
 
-.soc-btn:hover {
-	border: 1px solid rgba(255, 203, 120, .3);
-}
 
-.soc-btn:active {
-	opacity: 0.5;
-}
 
-.soc-btn-in {
-	background: url(../images/icon-insta.png) no-repeat center; 
-}
 
-.soc-btn-fb {
-	background: url(../images/icon-fb.png) no-repeat center; 
-}
 
-.soc-btn-vk {
-	background: url(../images/icon-vk.png) no-repeat center; 
-}
 
-.warning {
-	width: 195px;
-	font-size: 14px;
-	line-height: 20px;
-	margin-left: 93px;
-	align-self: center;
-}
 
-.footer-copyright {
-	font-size: 14px;
-	line-height: 20px;
-	margin-left: auto;
-	margin-right: 10px;
-	align-self: center;
-}
 
-.footer-copyright img,
-.footer-copyright a,
-.footer-copyright b {
-	vertical-align: middle;
-}
 
-.footer-copyright img {
-	position: absolute;
-	top: 17px;
-	left: 22px; 
-}
 
-.html-logo {
-	display: inline-block;
-	position: relative;
-	width: 71px;
-	height: 66px;
-	border: 1px solid rgba(255, 203, 120, .1);
-	background-color: #1b1b1b;
-	margin-right: 31px;
-}
 
-.html-logo:hover {
-	border-color: rgba(255, 203, 120, .3);
-}
 
-.html-logo:active {
-	opacity: 0.5;
-}
 
-.footer-copyright a {
-	color: #989898;
-	text-decoration: none;
-}
+
+
+
+
+
+

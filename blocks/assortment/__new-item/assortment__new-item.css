@@ -1,0 +1,11 @@
+.assortment__new-item {
+  font-size: 8px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #000;
+  border-radius: 2px;
+  padding: 2px;
+  margin-left: 25px;
+}

@@ -1,0 +1,5 @@
+.footer__bottom {
+  display: flex;
+  flex-direction: row;
+  height: 68px;
+}

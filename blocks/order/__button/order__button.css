@@ -1,0 +1,33 @@
+.order__button {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  word-wrap: break-word;
+  padding: 15px 20px;
+  vertical-align: center;
+  margin-top: 38px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #834700;
+  border: none;
+}
+
+.order__button:hover {
+  color: #ffffff;
+  background-color: #6a3900;
+}
+
+.order__button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #6a3900;
+}
+
+.order__button:focus {
+  color: #ffffff;
+  background-color: #6a3900;
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,20 @@
+.footer__html-logo-link {
+  vertical-align: middle;
+  display: inline-block;
+  width: 71px;
+  height: 66px;
+  border: 1px solid rgba(255, 203, 120, .1);
+  background-color: #1b1b1b;
+  margin-right: 31px;
+  background-image: url('../../../images/htmlacademy.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer__html-logo-link:hover {
+  border-color: rgba(255, 203, 120, .3);
+}
+
+.footer__html-logo-link:active {
+  opacity: 0.5;
+}

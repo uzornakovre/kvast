@@ -1,3 +1,4 @@
 .features__list {
-  display: inline-block;  
+  display: inline-block;
+  list-style: none;
 }

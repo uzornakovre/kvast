@@ -1,0 +1,9 @@
+.assortment__table-header {
+  font-size: 11px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #999;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
