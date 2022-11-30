@@ -19,4 +19,4 @@ ______
 ------
 ![GitHub repo size](https://img.shields.io/github/repo-size/uzornakovre/kvast?color=yellow&style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/uzornakovre/kvast?color=blue&style=flat-square) ![GitHub Repo stars](https://img.shields.io/github/stars/uzornakovre/kvast?color=pink&style=flat-square)  
 
-[![Скриншот страницы](https://i.ibb.co/d7SJmK5/2022-08-22-11-16-21.png)](https://uzornakovre.github.io/kvast/)
+[![Скриншот страницы](https://i.ibb.co/N2FJY4N/2022-11-30-04-27-04.jpg)](https://uzornakovre.github.io/kvast/)
